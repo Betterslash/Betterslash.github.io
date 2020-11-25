@@ -1,2 +1,2 @@
-# SiteProject.github.io
+# betterslash.github.io
 Website for self
