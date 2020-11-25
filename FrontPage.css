@@ -1,0 +1,72 @@
+.center{
+    margin: auto;
+    transition: 1s;
+}
+.center:hover {
+    transform: scale(1.1);
+}
+.logo_panel{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    right: 10%;
+    height: 100%;
+}
+.left_drawer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 8%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.116);
+    box-shadow: 1px 1px 4px 8px rgba(0,0,0,0.14);
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.panel{
+    background-color:transparent;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("assets/fp_background.jpg");
+}
+.footer{
+    display: block;
+    justify-items: self-start;
+    font-size: 16px;
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.404);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.left_drawer_icon{
+    color: white;
+    transition: 0.5s;
+}
+.left_drawer_button{
+    display: block;
+    justify-self: center;
+    align-self: flex-start;
+    font-size: 28px;
+    border-radius: 32px;
+    background-color: transparent;
+    outline: none;
+    padding: 14px 16px;
+    border: 3px solid white;
+    transition: 0.5s;
+    margin: auto;
+}
+.left_drawer_button:hover{
+    background-color: rgba(255, 255, 255, 0.486);
+}
+.left_drawer_button:hover .left_drawer_icon{
+    color: black;
+}
